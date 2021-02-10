@@ -1,1 +1,34 @@
-/* Write your CSS here. */
+.pf {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wgs {
+  position: relative;
+  width: 320px;
+  height: 241px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs_mole-head {
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  left: 54.5px;
+  transition: margin-top;
+  transition-duration: 0.25s;
+}
+
+.wgs_mole-hill {
+  position: absolute;
+  width: 320px;
+  height: 110px;
+  bottom: 0;
+}
+
+.wgs_mole-head--hidden {
+  margin-top: 241px;
+}
+
